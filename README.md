@@ -46,8 +46,8 @@ Park Project/
 
 1. **Clone & Install Dependencies**
    ```bash
-   git clone https://github.com/wickmrakchi/Park-Project
-   cd "Park Project"
+   git clone https://github.com/wickmrakchi/Amusement Park Manager
+   cd "Amusement Park Manager"
    npm install
    ```
 
