@@ -82,7 +82,7 @@ Park Project/
 *![Login Preview](https://cdn.discordapp.com/attachments/1476763298325201037/1487474932894928916/image.png?ex=69c9467b&is=69c7f4fb&hm=77a0a79b1de1e7e2f290db17faeb5f6ae8852da87dfe4a0793b858e95726669d&)*
 *![Dashboard Preview](https://cdn.discordapp.com/attachments/1476763298325201037/1487474425229213957/image.png?ex=69c94602&is=69c7f482&hm=0b6323747ed6173e7051678428ec8f30c2bbca47326cc131b595e2ddcb91e157&)*
 *![Game Management](https://cdn.discordapp.com/attachments/1476763298325201037/1487474564022796318/image.png?ex=69c94624&is=69c7f4a4&hm=0d3f4d8936536bf28265a6243bb4ab5b5d4b16b4a42ce5782951e999ef4a3a5b&)*
-*![Admin Panel](https://cdn.discordapp.com/attachments/1476763298325201037/1487474409164898364/image.png?ex=69c945ff&is=69c7f47f&hm=7357653f41d1f2b6ca656ffe649851af46d7d0a2a13d7292f509cead2aba0db8&)*
+*![Admin Panel](https://cdn.discordapp.com/attachments/1476763298325201037/1488052245709721670/image.png?ex=69cb6026&is=69ca0ea6&hm=c6c353b222098f24145315bce374480ac6272bc5281a3747d3aea4a0b44c7baa&)*
 
 > **Note**: Screenshots placeholders. Add actual images to `public/images/` and update paths.
 
