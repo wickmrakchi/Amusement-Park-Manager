@@ -6,10 +6,13 @@
 
 A professional web application for managing amusement park games and attractions. Track player transactions, monitor real-time revenue and stats, manage game statuses, and handle user roles with secure authentication.
 
-## ✨ Features
+## ✨ Features (v1.1.0)
 
 - **User Authentication**: Secure login/register with role-based access (Admin, Game operators)
-- **Game Management**: Admin dashboard to add/edit games with pricing, images, and status (static/active/closed)
+- **Game Management**: Admin dashboard to **upload/edit game images**, pricing, status (static/active/closed) – auto default placeholder
+- **Activity Logs**: Full audit trail (/admin/logs) with old/new diffs for games/users updates
+- **Profile Management**: Users edit name/password (email/roles read-only)
+
 - **Transaction Tracking**: Record player entries with automatic revenue calculation (MAD currency)
 - **Real-time Stats**: Live polling for daily players and revenue per game
 - **Game Pages**: Detailed views with history tables, live metrics, and quick-add transactions
@@ -46,8 +49,8 @@ Park Project/
 
 1. **Clone & Install Dependencies**
    ```bash
-   git clone https://github.com/wickmrakchi/Amusement Park Manager
-   cd "Amusement Park Manager"
+   git clone https://github.com/wickmrakchi/Park-Project
+   cd "Park Project"
    npm install
    ```
 
