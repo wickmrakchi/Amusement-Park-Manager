@@ -6,7 +6,7 @@
 
 A professional web application for managing amusement park games and attractions. Track player transactions, monitor real-time revenue and stats, manage game statuses, and handle user roles with secure authentication.
 
-## ✨ Features (v1.1.0)
+## ✨ Features (v1.2.4)
 
 - **User Authentication**: Secure login/register with role-based access (Admin, Game operators)
 - **Game Management**: Admin dashboard to **upload/edit game images**, pricing, status (static/active/closed) – auto default placeholder
@@ -15,6 +15,7 @@ A professional web application for managing amusement park games and attractions
 - **Real-time Stats**: Live polling for daily players and revenue per game
 - **Game Pages**: Detailed views with history tables, live metrics, and quick-add transactions
 - **Dashboard Overview**: Centralized stats and navigation
+- **Edit-Profile Management**: Users edit name/password (email/roles read-only)
 - **Profile Management**: User settings and role info
 - **Image Uploads**: Secure multer uploads for game images (5MB limit, images only)
 - **Responsive UI**: Tailwind CSS with modern, mobile-friendly design
@@ -79,6 +80,7 @@ Park Project/
 <!-- Add screenshots here -->
 *![Login Preview](https://cdn.discordapp.com/attachments/1476763298325201037/1487474932894928916/image.png?ex=69c9467b&is=69c7f4fb&hm=77a0a79b1de1e7e2f290db17faeb5f6ae8852da87dfe4a0793b858e95726669d&)*
 *![Dashboard Preview](https://cdn.discordapp.com/attachments/1476763298325201037/1487474425229213957/image.png?ex=69c94602&is=69c7f482&hm=0b6323747ed6173e7051678428ec8f30c2bbca47326cc131b595e2ddcb91e157&)*
+*![Edit-Profile Management](https://cdn.discordapp.com/attachments/1476763298325201037/1488577527545987173/image.png?ex=69cd495b&is=69cbf7db&hm=0df223ecd5ac2cf398f536a6cac0c39657da9e23831e72119e76ba78f6225e59&)*
 *![Game Management](https://cdn.discordapp.com/attachments/1476763298325201037/1487474564022796318/image.png?ex=69c94624&is=69c7f4a4&hm=0d3f4d8936536bf28265a6243bb4ab5b5d4b16b4a42ce5782951e999ef4a3a5b&)*
 *![Admin Panel](https://cdn.discordapp.com/attachments/1476763298325201037/1487474409164898364/image.png?ex=69c945ff&is=69c7f47f&hm=7357653f41d1f2b6ca656ffe649851af46d7d0a2a13d7292f509cead2aba0db8&)*
 
