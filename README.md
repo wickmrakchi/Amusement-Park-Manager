@@ -48,8 +48,8 @@ Park Project/
 
 1. **Clone & Install Dependencies**
    ```bash
-   git clone https://github.com/wickmrakchi/Park-Project
-   cd "Park Project"
+   git clone 
+   cd 
    npm install
    ```
 
