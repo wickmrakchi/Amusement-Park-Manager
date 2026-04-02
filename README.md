@@ -44,29 +44,6 @@ Park Project/
 └── .env        # Environment variables
 ```
 
-## 🚀 Installation
-
-1. **Clone & Install Dependencies**
-   ```bash
-   git clone 
-   cd 
-   npm install
-   ```
-
-2. **Environment Setup**
-   Create `.env` file:
-   ```
-   MONGO_URI=mongodb://localhost:27017/amusement-park
-   SESSION_SECRET=your-super-secret-key-here
-   PORT=3000
-   ```
-
-3. **Run the Application**
-   ```bash
-   npm run dev
-   ```
-   Open [http://localhost:3000](http://localhost:3000)
-
 ## ⚙️ Configuration
 
 | Variable | Description | Example |
