@@ -303,8 +303,8 @@
 
 ```bash
 # 1. Clone
-git clone https://github.com/wickmrakchi/Park-Project
-cd "Park System"
+git clone https://github.com/wickmrakchi/
+cd "-"
 
 # 2. Install
 npm install
@@ -1000,7 +1000,7 @@ SOFTWARE.
 ## 👨‍💻 Author
 
 <p align="center">
-  <img src="https://img.shields.io/badge/حَمْزَة_الْمُرَاكْشِي-000000?style=for-the-badge" alt="Hamza Mrakchi">
+  <img src="https://img.shields.io/badge/Mrakchi.dev-000000?style=for-the-badge" alt="Hamza Mrakchi">
 </p>
 
 <p align="center">
@@ -1016,6 +1016,12 @@ SOFTWARE.
   </a>
   <a href="mailto:hessamgrati@gmail.com">
     <img src="https://img.shields.io/badge/Email-hessamgrati@gmail.com-D14836?style=for-the-badge&logo=gmail" alt="Email">
+  </a>
+  <a href="https://www.paypal.com/paypalme/Essamgrati">
+    <img src="https://img.shields.io/badge/PayPal-Support%20the%20Project-00457C?style=for-the-badge&logo=paypal&logoColor=white" alt="PayPal">
+  </a>
+  <a href="https://discord.gg/VyX7RTWxm4">
+    <img src="https://img.shields.io/badge/Discord-wicks-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord">
   </a>
 </p>
 
