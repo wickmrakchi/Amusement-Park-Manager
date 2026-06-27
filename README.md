@@ -202,7 +202,6 @@
   └─────────────────────────────────────────────────────┘
 ```
 
-> *For live screenshots, deploy and visit `http://localhost:3000`*
 
 ---
 
