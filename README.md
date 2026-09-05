@@ -1,7 +1,7 @@
 # 🎡 Amusement Park Manager
 
 <p align="center">
-  <img src="https://img.shields.io/badge/version-2.0.0-blue?style=for-the-badge&labelColor=1a1a2e" alt="Version">
+  <img src="https://img.shields.io/badge/version-2.1.0-blue?style=for-the-badge&labelColor=1a1a2e" alt="Version">
   <img src="https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge&labelColor=1a1a2e" alt="License">
   <img src="https://img.shields.io/badge/Node.js-v18+-339933?style=for-the-badge&logo=node.js&logoColor=white&labelColor=1a1a2e" alt="Node.js">
   <img src="https://img.shields.io/badge/Express-5.2-000000?style=for-the-badge&logo=express&logoColor=white&labelColor=1a1a2e" alt="Express">
@@ -46,9 +46,10 @@
 - [🧪 Testing](#-testing)
 - [📚 API Reference](#-api-reference)
 - [🔒 Security](#-security)
+- [📝 Changelog](#-changelog)
 - [🤝 Contributing](#-contributing)
 - [📄 License](#-license)
-- [👨‍💻 Author](#%EF%B8%8F-author)
+- [👨‍💻 Author](#-author)
 
 ---
 
@@ -202,6 +203,7 @@
   └─────────────────────────────────────────────────────┘
 ```
 
+> *For live screenshots, deploy and visit `http://localhost:3000`*
 
 ---
 
@@ -303,7 +305,7 @@
 ```bash
 # 1. Clone
 git clone https://github.com/wickmrakchi/
-cd "-"
+cd ""
 
 # 2. Install
 npm install
@@ -939,6 +941,67 @@ afterAll(async () => {
 - [ ] Run `npm audit` and fix vulnerabilities
 - [ ] Set up regular database backups
 - [ ] Use environment-specific `.env` files
+
+---
+
+## 📝 Changelog
+
+### v2.1.0 (September 2026)
+
+Bug fixes & improvements:
+
+- **Language switching fixed** — added `cookie-parser` so the i18n middleware correctly reads the language cookie; previously the UI language reset after every navigation
+- **Refund system hardened** — refunding a transaction now restores the coupon's `usedCount`, and a guard prevents double refunding the same transaction (with a translated alert)
+- **Game descriptions fully localized** — the game detail page now shows the description in EN/AR/FR, and the create/edit forms include Arabic and French description fields
+- **Proper error pages** — new dedicated 404 and 500 pages (with i18n); the error handler now sits after all routes so unknown URLs render the 404 page
+- **Upload security** — removed `svg` from the image upload whitelist; deleting a game now also deletes its uploaded image file (no more orphaned files)
+- **Auth secrets separated** — `JWT_SECRET` is now its own config var (with `SESSION_SECRET` fallback), wired into `.env.example`, `docker-compose.yml` and the tests
+- **Removed broken `stats.js` middleware** — replaced with correct per-route stat loading; `app.listen` now only starts the server when run directly (no port conflicts in tests)
+- **Fixed RTL layout** — all `text-left` classes replaced with `text-start` so Arabic text wraps correctly
+- **Localized hardcoded strings** — the remaining raw English messages in admin, auth and profile controllers are now fully translated (EN/AR/FR)
+- **Reliable automated tests** — added a smoke-test suite and fixed the test scripts to be cross-platform (Windows/macOS/Linux); **14/14 tests passing**
+- **Dependency health** — `npm audit` reports **0 vulnerabilities**; `package-lock.json` is tracked again for reproducible installs
+
+### v2.0.0 (June 2026)
+
+New features & major rewrite:
+
+- **Full project restructure** — clean `src/` architecture (config, controllers, middleware, models, routes, views, locales)
+- **Multilingual system** — complete English / Arabic / French translations with RTL support and a saved per-user language preference
+- **New Tailwind CSS UI** — responsive, mobile-first design with dark mode, status badges, modals and toast notifications
+- **Dashboard** — live statistics (users, games, transactions, total revenue) with recent activity
+- **Admin panel** — user management (activate/deactivate), full audit logs, coupon management, shift tracking
+- **Coupon engine** — percentage discounts with usage limits and expiry dates
+- **Reports & analytics** — date-range filtering, per-game reports and professional PDF export via PDFKit
+- **Game management** — CRUD with secure image uploads and multi-language names/descriptions
+- **JWT auth + server-side sessions** — MongoDB-backed session store with role-based route guards
+- **Docker deployment** — Dockerfile and docker-compose (app + MongoDB services)
+- **Seed script** — demo data (users, 6 games, transactions, coupons)
+- **Automated testing** — Jest + Supertest with MongoDB Memory Server
+
+### v1.2.4 (March 2026)
+
+Bug fixes & improvements:
+
+- Server configuration fixes (port and environment handling)
+- Profile route fix and small package/README updates
+
+### v1.1.0 (March 2026)
+
+New features:
+
+- **Profile page** — account settings and personal view
+- **Enhanced admin panel** — improved stats and management views
+- **Activity logging improvements** — upgraded Log model with more detail
+
+### v1.0.0 (March 2026)
+
+Initial release:
+
+- Authentication (login/register with password hashing)
+- Games management and transactions
+- Admin panel, activity logs, dashboard and profile
+- Responsive UI with custom styling
 
 ---
 
